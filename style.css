@@ -27,38 +27,44 @@ body {
 
 /* Hero Header */
 /* Hero Header */
-/* Hero Header (Compact) */
 .hero {
   text-align: center;
-  padding: 1.5rem 1rem 1rem; /* Smaller padding */
+  padding: 2rem 1rem 1.5rem; /* Reduced padding for compactness */
   opacity: 0;
-  transform: translateY(10px);
-  animation: fadeInUp 0.6s ease forwards;
-  min-height: auto; /* Remove fixed height */
+  transform: translateY(10px); /* Less dramatic rise */
+  animation: fadeInUp 0.8s ease forwards;
+  min-height: 60vh; /* Compact height */
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .profile-pic {
-  width: 110px;
-  height: 110px;
-  object-fit: cover;
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
+  width: 140px;
+  height: 140px;             /* Ensures square image */
+  object-fit: cover;         /* Crop for symmetry */
+  border-radius: 50%;        /* Perfect circle */
   border: 2.5px solid var(--accent-color);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
 }
 
-
 h1 {
-  font-size: 1.75rem; /* Smaller heading */
+  font-size: 2rem;           /* Slightly smaller heading */
   color: var(--accent-color);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
 .tagline {
   font-weight: 300;
-  font-size: 0.95rem; /* Subtler tagline */
+  font-size: 1rem;           /* More compact subtitle */
   color: #8b949e;
+  animation: fadeIn 1.5s ease-in;
 }
+
 
 /* Navbar */
 .navbar {
