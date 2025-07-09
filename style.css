@@ -104,6 +104,37 @@ h2 {
   color: var(--accent-color);
 }
 
+/*lol*/
+.skill-category {
+  background-color: rgba(255, 255, 255, 0.02);
+  padding: 1.2rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 255, 213, 0.05);
+  transition: all 0.3s ease;
+}
+
+.skill-category h3 {
+  color: #00ffd5;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.skill-category p {
+  margin: 0.4rem 0;
+  color: #d0d0d0;
+}
+
+.skill-category a {
+  color: #00ffd5;
+  text-decoration: underline;
+}
+
+.skill-category:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  transform: translateY(-2px);
+}
+
 /* Skills Tags */
 ul.skills, ul {
   list-style: none;
