@@ -57,9 +57,9 @@ GitHub Pages will automatically reflect the latest version.
 ## 🔗 Links
 
 - 🔗 [Portfolio Website](https://ssenguptaneel.github.io)
-- 📬 Email: swapnaneel@email.com *(dummy for now)*
-- 💼 [LinkedIn](#)
-- 📸 [Instagram](#)
+- 📬 Email: ss24ms079@iiserkol.ac.in 
+- 💼 [LinkedIn](www.linkedin.com/in/swapnaneel-sengupta)
+- 📸 [Instagram](https://www.instagram.com/namikaze.neel.14/?__pwa=1#)
 - 🧠 [GitHub](https://github.com/SSenguptaNeel)
 
 ---
