@@ -48,4 +48,28 @@ To deploy updates:
 git add .
 git commit -m "Update portfolio"
 git push origin main
+```
 
+GitHub Pages will automatically reflect the latest version.
+
+---
+
+## 🔗 Links
+
+- 🔗 [Portfolio Website](https://ssenguptaneel.github.io)
+- 📬 Email: swapnaneel@email.com *(dummy for now)*
+- 💼 [LinkedIn](#)
+- 📸 [Instagram](#)
+- 🧠 [GitHub](https://github.com/SSenguptaNeel)
+
+---
+
+## 📜 License
+
+This project is open source and free to use.  
+Feel free to fork, modify, and share with credit.
+
+---
+
+> “To understand the world at its most fundamental level, one must think beyond the observable.”  
+> — Swapnaneel Sengupta
