@@ -25,7 +25,7 @@ body {
   padding: 2rem;
 }
 
-/* Hero Header */
+
 /* Hero Header */
 .hero {
   text-align: center;
@@ -64,6 +64,7 @@ h1 {
   color: #8b949e;
   animation: fadeIn 1.5s ease-in;
 }
+
 
 
 /* Navbar */
