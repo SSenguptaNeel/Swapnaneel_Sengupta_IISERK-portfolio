@@ -91,6 +91,8 @@ color: #1f6feb;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  --scroll-blur: 4px;
+  --scroll-opacity: 0.5;
 }
 
 .with-bg::before {
@@ -102,22 +104,21 @@ color: #1f6feb;
   height: 100%;
   background: url("https://i.postimg.cc/W4QKkrRd/pfp.jpg") no-repeat center center;
   background-size: cover;
-  filter: blur(6px) brightness(0.8); /* Start with blur */
-  opacity: 0.4;
+  filter: blur(var(--scroll-blur)) brightness(0.85);
+  opacity: var(--scroll-opacity);
   z-index: 0;
-  transition: filter 0.3s ease, opacity 0.3s ease;
-}
-.with-bg::before {
-  /* ... */
-  filter: blur(var(--scroll-blur, 6px)) brightness(0.8);
-  opacity: var(--scroll-opacity, 0.4);
+  transition: filter 0.2s ease, opacity 0.2s ease;
 }
 
+/* Content stays visible */
 .with-bg .container {
   position: relative;
   z-index: 1;
   padding: 2rem;
+  background-color: rgba(15, 23, 42, 0.6); /* Add dark translucent background for readability */
+  border-radius: 12px;
 }
+
 
 
 /* Section Layout */
