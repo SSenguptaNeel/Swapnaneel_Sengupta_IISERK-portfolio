@@ -208,5 +208,22 @@ color: #1f6feb;
   color: var(--accent-purple);
 }
 
+/*p*/
+p {
+  margin-bottom: 1rem;
+  color: var(--text-gray);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+
 /* Footer */
 .footer {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 4rem;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-gray-dark);
+  font-size: 0.875rem;
+}
+
