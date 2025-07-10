@@ -102,20 +102,21 @@ color: #1f6feb;
   height: 100%;
   background: url("https://i.postimg.cc/W4QKkrRd/pfp.jpg") no-repeat center center;
   background-size: cover;
-  filter: blur(3px) brightness(0.75); /* ⬅️ Light blur, slight darken */
+  filter: blur(6px) brightness(0.8); /* Start with blur */
+  opacity: 0.4;
   z-index: 0;
-  opacity: 0.85; /* ⬅️ Allow image to show through */
+  transition: filter 0.3s ease, opacity 0.3s ease;
 }
-
-
-/* Ensure actual content appears on top of blurred bg */
+.with-bg::before {
+  /* ... */
+  filter: blur(var(--scroll-blur, 6px)) brightness(0.8);
+  opacity: var(--scroll-opacity, 0.4);
+}
 
 .with-bg .container {
   position: relative;
   z-index: 1;
-  background-color: rgba(15, 23, 42, 0.55); /* dark translucent overlay */
   padding: 2rem;
-  border-radius: 12px;
 }
 
 
