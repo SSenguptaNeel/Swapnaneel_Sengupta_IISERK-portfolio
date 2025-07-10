@@ -115,9 +115,13 @@ color: #1f6feb;
   position: relative;
   z-index: 1;
   padding: 2rem;
-  background-color: rgba(15, 23, 42, 0.6); /* Add dark translucent background for readability */
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
   border-radius: 12px;
+  backdrop-filter: saturate(180%) blur(4px);
+  -webkit-backdrop-filter: saturate(180%) blur(4px); /* Safari support */
+  color: #fff;
 }
+
 
 
 
